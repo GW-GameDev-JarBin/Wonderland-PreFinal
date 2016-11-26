@@ -42,7 +42,6 @@
     <sprite>sprites\spr_map</sprite>
     <sprite>sprites\spr_pause</sprite>
     <sprite>sprites\spr_resume</sprite>
-    <sprite>sprites\spr_monstor_2</sprite>
     <sprite>sprites\spr_fireball</sprite>
     <sprite>sprites\spr_fly</sprite>
     <sprite>sprites\spr_slime</sprite>
@@ -111,6 +110,7 @@
     <object>objects\obj_view</object>
     <object>objects\obj_trap</object>
     <object>objects\obj_fly</object>
+    <object>objects\obj_zombie</object>
     <object>objects\obj_controller_win</object>
     <objects name="level_chooser_buttons">
       <object>objects\obj_maplvl1</object>
@@ -140,7 +140,7 @@
     <object>objects\obj_bg_music</object>
     <object>objects\obj_dash_effect</object>
     <object>objects\obj_gameover</object>
-    <object>objects\obj_monstor_2</object>
+    <object>objects\obj_boss</object>
     <object>objects\obj_fireball</object>
     <object>objects\obj_slime</object>
     <object>objects\obj_multi_touch</object>

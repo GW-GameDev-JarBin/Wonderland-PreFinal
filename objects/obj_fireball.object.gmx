@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>self</parentName>
+  <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -108,9 +108,9 @@ if(alarm[2] &lt;= 0){
     var dir = point_direction(other.x, other.y, x,y);
     var x_dir = lengthdir_x(1, global.dir);
     var y_dir = lengthdir_y(1, global.dir);
-    if(instance_exists(obj_monstor_2)){
+    if(instance_exists(obj_boss)){
         var damage = instance_create(other.x + x_dir,other.y + y_dir, obj_damage);
-        damage.creator = obj_monstor_2.id;
+        damage.creator = obj_boss.id;
         damage.knockback = 5;
     }
     instance_destroy();
