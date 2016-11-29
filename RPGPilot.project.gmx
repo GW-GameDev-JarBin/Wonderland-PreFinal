@@ -144,6 +144,7 @@
     <object>objects\obj_fireball</object>
     <object>objects\obj_slime</object>
     <object>objects\obj_multi_touch</object>
+    <object>objects\obj_prince</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_level_chooser</room>
