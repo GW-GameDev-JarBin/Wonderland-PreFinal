@@ -5,7 +5,9 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound">
+    <sound>sound\snd_game_1</sound>
     <sound>sound\snd_tada</sound>
+    <sound>sound\snd_game_2</sound>
     <sound>sound\snd_sword_swing</sound>
     <sound>sound\snd_dash_sound</sound>
     <sound>sound\snd_ding</sound>
