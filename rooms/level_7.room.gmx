@@ -239,6 +239,10 @@
     <instance objName="obj_block_wall" x="-336" y="320" name="inst_DB13D32E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_multi_touch" x="96" y="96" name="inst_810D82C7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door_1" x="2832" y="16" name="inst_C06FE6B6" locked="0" code="new_room = level_8;&#xA;new_x = 420;&#xA;new_y = 480;&#xA;" scaleX="6" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_slime" x="1456" y="208" name="inst_2DCBBF71" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_slime" x="704" y="1184" name="inst_706E50B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_fly" x="2624" y="640" name="inst_BC43304F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_fly" x="3360" y="656" name="inst_1C58BB84" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>

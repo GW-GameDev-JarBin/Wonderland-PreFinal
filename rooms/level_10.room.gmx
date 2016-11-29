@@ -171,6 +171,10 @@
     <instance objName="obj_block_wall" x="2816" y="0" name="inst_7F2E3AEA" locked="0" code="" scaleX="-93" scaleY="-5" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_wall" x="2656" y="2208" name="inst_AFE4831A" locked="0" code="" scaleX="5" scaleY="-69" colour="4294967295" rotation="0"/>
     <instance objName="obj_multi_touch" x="160" y="96" name="inst_0DCAEBC5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_boss" x="1728" y="672" name="inst_82ABCAA5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_slime" x="512" y="864" name="inst_28F7B3FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_fly" x="512" y="1760" name="inst_4C3CD68D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_zombie" x="1120" y="1632" name="inst_6E8C1120" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>

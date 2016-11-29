@@ -96,6 +96,6 @@ path_start(pth_monster_1, 4, path_action_reverse, false);
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
     <point>50,50</point>
-    <point>34,50</point>
+    <point>50,50</point>
   </PhysicsShapePoints>
 </object>
