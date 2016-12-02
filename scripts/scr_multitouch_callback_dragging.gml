@@ -6,8 +6,8 @@
     var touch_starty = argument4; // DO NOT MODIFY. Internal variable.
 
     
-    var dx = touch_x - touch_previous_x; // DO NOT MODIFY. Convenience variable.
-    var dy = touch_y - touch_previous_y; // DO NOT MODIFY. Convenience variable.
+    //var dx = touch_x - touch_previous_x; // DO NOT MODIFY. Convenience variable.
+    //var dy = touch_y - touch_previous_y; // DO NOT MODIFY. Convenience variable.
 
     // { Customize from here
     
