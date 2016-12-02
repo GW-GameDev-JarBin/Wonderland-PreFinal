@@ -11,7 +11,8 @@ if (instance_exists(obj_player)){
             right = true
             sprite_index = spr_female_right
             obj_player.phy_position_x += 10;
-        }   
+            
+        }  
         // north 
         //else if (d > 90 and d < 135)
         else if (d > 45 and d <= 135){
@@ -24,6 +25,7 @@ if (instance_exists(obj_player)){
             left = true;
             sprite_index = spr_female_left
             obj_player.phy_position_x -= 10;
+             
         }
         // south 
         else if (d > 225 and d <= 315){
@@ -31,6 +33,9 @@ if (instance_exists(obj_player)){
             sprite_index = spr_female_down
             obj_player.phy_position_y += 10;
         } 
+        
+       
+  
       
     }
 }
@@ -82,3 +87,5 @@ if (instance_exists(obj_player)){
             phy_position_y -= 4;
         }
         */
+        
+  

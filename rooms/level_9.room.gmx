@@ -166,7 +166,6 @@
     <instance objName="obj_view" x="128" y="64" name="inst_8C2BF5BE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_wall" x="64" y="512" name="inst_167FCF2B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_wall" x="32" y="512" name="inst_8061CD68" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="1856" y="832" name="inst_5131B4D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_controller_level_9" x="224" y="64" name="inst_749B8601" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_wall" x="32" y="0" name="inst_8AC401C5" locked="0" code="" scaleX="-6" scaleY="72" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_wall" x="32" y="2240" name="inst_31A7F0BA" locked="0" code="" scaleX="53" scaleY="5" colour="4294967295" rotation="0"/>

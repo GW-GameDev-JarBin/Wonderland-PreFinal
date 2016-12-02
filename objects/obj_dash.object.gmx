@@ -64,39 +64,6 @@ y = view_yview[0] + 608;
         </arguments>
       </action>
     </event>
-    <event eventtype="6" enumb="4">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>obj_dash</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>
-//player_x = obj_player.x;
-//player_y = obj_player.y;
-
-
-//shield = instance_create(player_x - 60, player_y - 60, obj_shield);
-if(instance_exists(obj_player)){
-    obj_player.state = scr_dash_state;
-    script_execute(obj_player.state);
-    audio_play_sound(snd_dash_sound, 10, false);
-}
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
     <event eventtype="7" enumb="7">
       <action>
         <libid>1</libid>

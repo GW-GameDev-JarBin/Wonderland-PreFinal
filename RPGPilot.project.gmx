@@ -70,6 +70,8 @@
   </paths>
   <scripts name="scripts">
     <script>scripts\scr_move_state.gml</script>
+    <script>scripts\scr_dash_state_level_7.gml</script>
+    <script>scripts\scr_dash_state_level_8.gml</script>
     <script>scripts\scr_dash_state.gml</script>
     <script>scripts\scr_attack_state.gml</script>
     <scripts name="gwgamedev_multitouch">

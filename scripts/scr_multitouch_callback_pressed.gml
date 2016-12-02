@@ -19,6 +19,7 @@ if (instance_exists(obj_attack))
     {
         // attack button is pressed
         obj_player.act = true
+        //obj_player.image_speed = 0.2;
         script_execute(scr_attack_state);
         //state = scr_move_state;
         audio_play_sound(snd_sword_swing, 10, false);
@@ -38,8 +39,23 @@ if (instance_exists(obj_dash))
     {
        if(instance_exists(obj_player))
        {
-            obj_player.state = scr_dash_state;
-            script_execute(obj_player.state);
+            //obj_player.state = scr_dash_state;
+            //obj_player.act = false
+            if (instance_exists(obj_controller_level_7))
+            {
+                obj_player.state = scr_dash_state_level_7;
+                script_execute(obj_player.state);
+            }
+            else if (instance_exists(obj_controller_level_8))
+            {
+                obj_player.state = scr_dash_state_level_8;
+                script_execute(obj_player.state);
+            }
+            else
+            {
+                script_execute(obj_player.state);
+            }
+            //obj_player.act = true;
             audio_play_sound(snd_dash_sound, 10, false);
        }
         
@@ -69,6 +85,7 @@ if (instance_exists(obj_lever))
             obj_lever.image_angle = global.dir 
         
             obj_player.act = true
+            obj_player.image_speed = 0.2;
      
      
         }
@@ -78,6 +95,8 @@ if (instance_exists(obj_lever))
         {
             // if the mouse is not far enough to pull the lever
             obj_lever.image_index = 0
+            
+            obj_player.image_speed = 0;
         
             global.dir = 0
         
