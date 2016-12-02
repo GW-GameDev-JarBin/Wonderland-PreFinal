@@ -51,8 +51,20 @@ if (instance_exists(obj_dash))
                 obj_player.state = scr_dash_state_level_8;
                 script_execute(obj_player.state);
             }
+            else if (instance_exists(obj_controller_level_9))
+            {
+                obj_player.state = scr_dash_state_level_9;
+                script_execute(obj_player.state);
+            }
+            else if (instance_exists(obj_controller_level_10))
+            {
+                obj_player.state = scr_dash_state_level_10;
+                script_execute(obj_player.state);
+            }
+            
             else
             {
+                obj_player.state = scr_dash_state;
                 script_execute(obj_player.state);
             }
             //obj_player.act = true;

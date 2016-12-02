@@ -42,40 +42,7 @@ if (instance_exists(obj_player)){
     }
  
     
-    /*
-   if (instance_exists(obj_trap)){
-        //player_x = player_x + 1;
-        trap_position_x = obj_trap.phy_position_x;
-        trap_position_y = obj_trap.phy_position_y;
-        
-        //player_x = obj_player.phy_position_x;
-        //player_y = obj_player.phy_position_y;
-        safe_position_x1 = obj_trap.phy_position_x - 80;
-        safe_position_x2 = obj_trap.phy_position_x + 80;
-        safe_position_y1 = obj_trap.phy_position_y + 80;
-        safe_position_y2 = obj_trap.phy_position_y - 80;
-        //safe_position_y = obj_trap.y + 50
-        if (obj_player.phy_position_x < safe_position_x2 and obj_player.phy_position_x > safe_position_x1)
-        and  (obj_player.phy_position_y < safe_position_y1 and obj_player.phy_position_y > safe_position_y2)
-        {
-            
-            with (obj_player)
-            {
-                instance_destroy();
-            }
-            /*with (obj_dash)
-            {
-                instance_destroy();
-            }*/
-            /*
-            room_restart();
-            instance_create(420, 480, obj_player);
-            obj_player.visible = true;
-            //player_x = 420;
-            //player_y = 480;
-        }
-    }
-    */
+   
     if (instance_exists(obj_controller_level_7.trap_7_1)){
     
         

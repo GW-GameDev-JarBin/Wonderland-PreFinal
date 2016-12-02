@@ -40,21 +40,15 @@ if (instance_exists(obj_player)){
         obj_player.phy_position_y += 320;
         
     }
- 
+   
     
-    
-   if(instance_exists(obj_trap)){
-        //player_x = player_x + 1;
-        trap_position_x = obj_trap.phy_position_x;
-        trap_position_y = obj_trap.phy_position_y;
-        
-        //player_x = obj_player.phy_position_x;
-        //player_y = obj_player.phy_position_y;
-        safe_position_x1 = obj_trap.phy_position_x - 80;
-        safe_position_x2 = obj_trap.phy_position_x + 80;
-        safe_position_y1 = obj_trap.phy_position_y + 80;
-        safe_position_y2 = obj_trap.phy_position_y - 80;
-        //safe_position_y = obj_trap.y + 50
+    if (instance_exists(obj_controller_level_10.trap_10_1)){
+      
+        safe_position_x1 = obj_controller_level_10.trap_10_1.phy_position_x - 90;
+        safe_position_x2 = obj_controller_level_10.trap_10_1.phy_position_x + 90;
+        safe_position_y1 = obj_controller_level_10.trap_10_1.phy_position_y + 90;
+        safe_position_y2 = obj_controller_level_10.trap_10_1.phy_position_y - 90;
+
         if (obj_player.phy_position_x < safe_position_x2 and obj_player.phy_position_x > safe_position_x1)
         and  (obj_player.phy_position_y < safe_position_y1 and obj_player.phy_position_y > safe_position_y2)
         {
@@ -63,12 +57,17 @@ if (instance_exists(obj_player)){
             {
                 instance_destroy();
             }
-           
             room_restart();
             instance_create(420, 480, obj_player);
             obj_player.visible = true;
         }
-    }
-}
+    }                       
+   
+    obj_player.state = scr_move_state; 
+   
+
+   
     
+
+}
 

@@ -90,6 +90,27 @@ if (floor(image_index) == 4 and sprite_index == spr_female_attack_down)
     obj_player.sprite_index = spr_female_down;
 }
 
+
+if (instance_exists(obj_trap)){
+      
+    safe_position_x1 = obj_trap.phy_position_x - 90;
+    safe_position_x2 = obj_trap.phy_position_x + 90;
+    safe_position_y1 = obj_trap.phy_position_y + 90;
+    safe_position_y2 = obj_trap.phy_position_y - 90;
+
+    if (obj_player.phy_position_x &lt; safe_position_x2 and obj_player.phy_position_x &gt; safe_position_x1)
+    and  (obj_player.phy_position_y &lt; safe_position_y1 and obj_player.phy_position_y &gt; safe_position_y2)
+    {
+            
+        with (obj_player)
+        {
+            instance_destroy();
+        }
+        room_restart();
+        instance_create(420, 480, obj_player);
+        obj_player.visible = true;
+    }
+} 
               
 </string>
           </argument>
