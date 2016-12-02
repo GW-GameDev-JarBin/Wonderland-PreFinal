@@ -17,9 +17,10 @@
             // Use scr_multitouch_callback_pressed() whenever possible
             // } USER ROUTINE TILL HERE
         }
-        /*
+        
         // dragging
-        if( device_mouse_check_button(device,mb_left) = true ){            
+        if( device_mouse_check_button(device,mb_left) = true )
+        {            
             scr_multitouch_callback_dragging(device
                 ,device_mouse_x(device)
                 ,device_mouse_y(device)
@@ -30,7 +31,7 @@
             // Use scr_multitouch_callback_pressed() whenever possible
             // } USER ROUTINE TILL HERE
         }
-        */
+        
         // released
         if( device_mouse_check_button_released(device, mb_left) = true ){
             multitouch_dragging_count -= 1;

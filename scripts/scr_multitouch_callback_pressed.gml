@@ -81,7 +81,8 @@ if (instance_exists(obj_lever))
     //x = obj_attack.x;
     user_x = touch_previous_x;
     user_y = touch_previous_y;
-       
+    
+  
     dis = point_distance(obj_lever.x, obj_lever.y, user_x, user_y) 
     if(instance_exists(obj_player)){  
     // distance test
@@ -98,11 +99,11 @@ if (instance_exists(obj_lever))
         
             obj_player.act = true
             obj_player.image_speed = 0.2;
-     
-     
         }
+     
+        
     
-    
+        /*
         else 
         {
             // if the mouse is not far enough to pull the lever
@@ -114,7 +115,7 @@ if (instance_exists(obj_lever))
         
             obj_player.act = false
         }
-    
+        */
     }
 }
 
